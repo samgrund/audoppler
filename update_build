@@ -1,0 +1,4 @@
+cp -R ../csh_example/build ./build
+git add .
+git commit -m "Build update"
+git push
