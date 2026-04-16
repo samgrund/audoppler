@@ -1,0 +1,1116 @@
+[
+  {
+    "name": "csp",
+    "id": "ffd03c9@@csp@sha",
+    "type": "shared library",
+    "defined_in": "/home/au648962/Developer/si/csh_example/subprojects/csp/meson.build",
+    "filename": [
+      "/home/au648962/Developer/si/csh_example/build/subprojects/csp/libcsp.so"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/libcsp.so.p",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/src",
+          "-I/usr/include/pgm-5.3",
+          "-I/usr/include/libxml2",
+          "-I/usr/include/x86_64-linux-gnu",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Werror",
+          "-std=gnu11",
+          "-Os",
+          "-g",
+          "-fPIC",
+          "-isystem",
+          "/usr/include/mit-krb5",
+          "-pthread",
+          "-Wshadow",
+          "-Wcast-align",
+          "-Wwrite-strings",
+          "-Wpointer-arith",
+          "-Wno-unused-parameter"
+        ],
+        "sources": [
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_bridge.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_buffer.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_conn.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_crc32.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_debug.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_dedup.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_id.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_iflist.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_init.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_io.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_port.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_qfifo.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_route.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_service_handler.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_services.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_sfp.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_hex_dump.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_promisc.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_rdp.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/csp_rdp_queue.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/arch/posix/csp_queue.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/arch/posix/csp_semaphore.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/arch/posix/csp_system.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/arch/posix/csp_time.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/arch/posix/csp_clock.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/arch/posix/pthread_queue.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/crypto/csp_hmac.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/crypto/csp_sha1.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/drivers/can/can_socketcan.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/drivers/eth/eth_linux.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/drivers/usart/usart_linux.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/drivers/usart/usart_kiss.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/interfaces/csp_if_lo.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/interfaces/csp_if_can.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/interfaces/csp_if_can_pbuf.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/interfaces/csp_if_eth.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/interfaces/csp_if_eth_pbuf.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/interfaces/csp_if_kiss.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/interfaces/csp_if_tun.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/interfaces/csp_if_i2c.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/interfaces/csp_if_zmqhub.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/src/interfaces/csp_if_udp.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-shared",
+          "-fPIC",
+          "-Wl,-soname,libcsp.so",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "-lc",
+          "-pthread",
+          "/usr/lib/x86_64-linux-gnu/libsocketcan.so",
+          "/usr/lib/x86_64-linux-gnu/libzmq.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": "csp",
+    "dependencies": [
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "csp_server_client",
+    "id": "c24a3fb@@csp_server_client@exe",
+    "type": "executable",
+    "defined_in": "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/meson.build",
+    "filename": [
+      "/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples/csp_server_client"
+    ],
+    "build_by_default": false,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples/csp_server_client.p",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/examples",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/src",
+          "-I/usr/include/pgm-5.3",
+          "-I/usr/include/libxml2",
+          "-I/usr/include/x86_64-linux-gnu",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Werror",
+          "-std=gnu11",
+          "-Os",
+          "-g",
+          "-isystem",
+          "/usr/include/mit-krb5",
+          "-pthread",
+          "-Wshadow",
+          "-Wcast-align",
+          "-Wwrite-strings",
+          "-Wpointer-arith",
+          "-Wno-unused-parameter"
+        ],
+        "sources": [
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/csp_server_client.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/csp_server_client_posix.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,-rpath,$ORIGIN/..",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "subprojects/csp/libcsp.so",
+          "-lc",
+          "-pthread",
+          "/usr/lib/x86_64-linux-gnu/libsocketcan.so",
+          "/usr/lib/x86_64-linux-gnu/libzmq.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": "csp",
+    "dependencies": [
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "csp_server",
+    "id": "c24a3fb@@csp_server@exe",
+    "type": "executable",
+    "defined_in": "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/meson.build",
+    "filename": [
+      "/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples/csp_server"
+    ],
+    "build_by_default": false,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples/csp_server.p",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/examples",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/src",
+          "-I/usr/include/pgm-5.3",
+          "-I/usr/include/libxml2",
+          "-I/usr/include/x86_64-linux-gnu",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Werror",
+          "-std=gnu11",
+          "-Os",
+          "-g",
+          "-isystem",
+          "/usr/include/mit-krb5",
+          "-pthread",
+          "-Wshadow",
+          "-Wcast-align",
+          "-Wwrite-strings",
+          "-Wpointer-arith",
+          "-Wno-unused-parameter"
+        ],
+        "sources": [
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/csp_server.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/csp_server_posix.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,-rpath,$ORIGIN/..",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "subprojects/csp/libcsp.so",
+          "-lc",
+          "-pthread",
+          "/usr/lib/x86_64-linux-gnu/libsocketcan.so",
+          "/usr/lib/x86_64-linux-gnu/libzmq.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": "csp",
+    "dependencies": [
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "csp_client",
+    "id": "c24a3fb@@csp_client@exe",
+    "type": "executable",
+    "defined_in": "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/meson.build",
+    "filename": [
+      "/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples/csp_client"
+    ],
+    "build_by_default": false,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples/csp_client.p",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/examples",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/src",
+          "-I/usr/include/pgm-5.3",
+          "-I/usr/include/libxml2",
+          "-I/usr/include/x86_64-linux-gnu",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Werror",
+          "-std=gnu11",
+          "-Os",
+          "-g",
+          "-isystem",
+          "/usr/include/mit-krb5",
+          "-pthread",
+          "-Wshadow",
+          "-Wcast-align",
+          "-Wwrite-strings",
+          "-Wpointer-arith",
+          "-Wno-unused-parameter"
+        ],
+        "sources": [
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/csp_client.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/csp_client_posix.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,-rpath,$ORIGIN/..",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "subprojects/csp/libcsp.so",
+          "-lc",
+          "-pthread",
+          "/usr/lib/x86_64-linux-gnu/libsocketcan.so",
+          "/usr/lib/x86_64-linux-gnu/libzmq.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": "csp",
+    "dependencies": [
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "csp_bridge_can2udp",
+    "id": "c24a3fb@@csp_bridge_can2udp@exe",
+    "type": "executable",
+    "defined_in": "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/meson.build",
+    "filename": [
+      "/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples/csp_bridge_can2udp"
+    ],
+    "build_by_default": false,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples/csp_bridge_can2udp.p",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/examples",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/src",
+          "-I/usr/include/pgm-5.3",
+          "-I/usr/include/libxml2",
+          "-I/usr/include/x86_64-linux-gnu",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Werror",
+          "-std=gnu11",
+          "-Os",
+          "-g",
+          "-isystem",
+          "/usr/include/mit-krb5",
+          "-pthread",
+          "-Wshadow",
+          "-Wcast-align",
+          "-Wwrite-strings",
+          "-Wpointer-arith",
+          "-Wno-unused-parameter"
+        ],
+        "sources": [
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/csp_bridge_can2udp.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,-rpath,$ORIGIN/..",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "subprojects/csp/libcsp.so",
+          "-lc",
+          "-pthread",
+          "/usr/lib/x86_64-linux-gnu/libsocketcan.so",
+          "/usr/lib/x86_64-linux-gnu/libzmq.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": "csp",
+    "dependencies": [
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "csp_arch",
+    "id": "c24a3fb@@csp_arch@exe",
+    "type": "executable",
+    "defined_in": "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/meson.build",
+    "filename": [
+      "/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples/csp_arch"
+    ],
+    "build_by_default": false,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples/csp_arch.p",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/examples",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/src",
+          "-I/usr/include/pgm-5.3",
+          "-I/usr/include/libxml2",
+          "-I/usr/include/x86_64-linux-gnu",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Werror",
+          "-std=gnu11",
+          "-Os",
+          "-g",
+          "-isystem",
+          "/usr/include/mit-krb5",
+          "-pthread",
+          "-Wshadow",
+          "-Wcast-align",
+          "-Wwrite-strings",
+          "-Wpointer-arith",
+          "-Wno-unused-parameter"
+        ],
+        "sources": [
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/csp_arch.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,-rpath,$ORIGIN/..",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "subprojects/csp/libcsp.so",
+          "-lc",
+          "-pthread",
+          "/usr/lib/x86_64-linux-gnu/libsocketcan.so",
+          "/usr/lib/x86_64-linux-gnu/libzmq.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": "csp",
+    "dependencies": [
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "zmqproxy",
+    "id": "c24a3fb@@zmqproxy@exe",
+    "type": "executable",
+    "defined_in": "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/meson.build",
+    "filename": [
+      "/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples/zmqproxy"
+    ],
+    "build_by_default": false,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples/zmqproxy.p",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/examples",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/examples",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/src",
+          "-I/usr/include/pgm-5.3",
+          "-I/usr/include/libxml2",
+          "-I/usr/include/x86_64-linux-gnu",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Werror",
+          "-std=gnu11",
+          "-Os",
+          "-g",
+          "-isystem",
+          "/usr/include/mit-krb5",
+          "-pthread",
+          "-Wshadow",
+          "-Wcast-align",
+          "-Wwrite-strings",
+          "-Wpointer-arith",
+          "-Wno-unused-parameter"
+        ],
+        "sources": [
+          "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/zmqproxy.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,-rpath,$ORIGIN/..",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "subprojects/csp/libcsp.so",
+          "-lc",
+          "-pthread",
+          "/usr/lib/x86_64-linux-gnu/libsocketcan.so",
+          "/usr/lib/x86_64-linux-gnu/libzmq.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": "csp",
+    "dependencies": [
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "param",
+    "id": "444507a@@param@sha",
+    "type": "shared library",
+    "defined_in": "/home/au648962/Developer/si/csh_example/subprojects/param/meson.build",
+    "filename": [
+      "/home/au648962/Developer/si/csh_example/build/subprojects/param/libparam.so"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/param/libparam.so.p",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/param",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/param",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/param/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/src",
+          "-I/usr/include/pgm-5.3",
+          "-I/usr/include/libxml2",
+          "-I/usr/include/x86_64-linux-gnu",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-O0",
+          "-g",
+          "-Wall",
+          "-fPIC",
+          "-isystem",
+          "/usr/include/mit-krb5",
+          "-pthread",
+          "-isystem",
+          "/usr/include/x86_64-linux-gnu/bsd",
+          "-DLIBBSD_OVERLAY"
+        ],
+        "sources": [
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/param/list/param_list.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/param/param_client.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/param/param_serializer.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/param/param_server.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/param/param_string.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/param/param_queue.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/param/param_wildcard.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/param/param.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/mpack/mpack.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/vmem/vmem_client.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/vmem/vmem_crc32.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/vmem/vmem_server.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/vmem/vmem.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/vmem/vmem_block.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/param/src/objstore/objstore.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-shared",
+          "-fPIC",
+          "-Wl,-soname,libparam.so",
+          "-Wl,-rpath,$ORIGIN/../csp",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "subprojects/csp/libcsp.so",
+          "/usr/lib/x86_64-linux-gnu/libbsd.so",
+          "-lc",
+          "-pthread",
+          "/usr/lib/x86_64-linux-gnu/libsocketcan.so",
+          "/usr/lib/x86_64-linux-gnu/libzmq.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": "param",
+    "dependencies": [
+      "libbsd-overlay",
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "slash",
+    "id": "f88c8c1@@slash@sha",
+    "type": "shared library",
+    "defined_in": "/home/au648962/Developer/si/csh_example/subprojects/slash/meson.build",
+    "filename": [
+      "/home/au648962/Developer/si/csh_example/build/subprojects/slash/libslash.so"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/slash/libslash.so.p",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/slash",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/slash",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/slash/include",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-O0",
+          "-g",
+          "-fPIC"
+        ],
+        "sources": [
+          "/home/au648962/Developer/si/csh_example/subprojects/slash/src/slash.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/slash/src/completer.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/slash/src/optparse.c",
+          "/home/au648962/Developer/si/csh_example/subprojects/slash/src/slash_list.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-shared",
+          "-fPIC",
+          "-Wl,-soname,libslash.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": "slash",
+    "dependencies": [
+      "libc"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "apm_csh_lib",
+    "id": "7af6cb0@@apm_csh_lib@sta",
+    "type": "static library",
+    "defined_in": "/home/au648962/Developer/si/csh_example/subprojects/apm_csh/meson.build",
+    "filename": [
+      "/home/au648962/Developer/si/csh_example/build/subprojects/apm_csh/libapm_csh_lib.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/apm_csh/libapm_csh_lib.a.p",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/apm_csh",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/apm_csh",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/apm_csh/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/param",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/param",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/param/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/slash",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/slash",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/slash/include",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-O0",
+          "-g",
+          "-fPIC"
+        ],
+        "sources": [
+          "/home/au648962/Developer/si/csh_example/subprojects/apm_csh/src/apm.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "gcc-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": "apm_csh",
+    "dependencies": [
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq",
+      "libbsd-overlay",
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "csh_audoppler",
+    "id": "csh_audoppler@sha",
+    "type": "shared library",
+    "defined_in": "/home/au648962/Developer/si/csh_example/meson.build",
+    "filename": [
+      "/home/au648962/Developer/si/csh_example/build/libcsh_audoppler.so"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/au648962/Developer/si/csh_example/build/libcsh_audoppler.so.p",
+          "-I/home/au648962/Developer/si/csh_example/build",
+          "-I/home/au648962/Developer/si/csh_example",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/apm_csh",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/apm_csh",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/apm_csh/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/param",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/param",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/param/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/slash",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/slash",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/slash/include",
+          "-I/usr/include/pgm-5.3",
+          "-I/usr/include/libxml2",
+          "-I/usr/include/x86_64-linux-gnu",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-isystem",
+          "/usr/include/x86_64-linux-gnu/bsd",
+          "-DLIBBSD_OVERLAY",
+          "-isystem",
+          "/usr/include/mit-krb5",
+          "-pthread"
+        ],
+        "sources": [
+          "/home/au648962/Developer/si/csh_example/src/main_param.c",
+          "/home/au648962/Developer/si/csh_example/src/main_slash.c",
+          "/home/au648962/Developer/si/csh_example/src/main_slash_doppler.c",
+          "/home/au648962/Developer/si/csh_example/src/sgp4/SGP4.c",
+          "/home/au648962/Developer/si/csh_example/src/sgp4/TLE.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-shared",
+          "-fPIC",
+          "-Wl,-soname,libcsh_audoppler.so",
+          "-Wl,--whole-archive",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "subprojects/apm_csh/libapm_csh_lib.a",
+          "-Wl,--no-whole-archive",
+          "-Wl,-rpath,$ORIGIN/subprojects/csp:$ORIGIN/subprojects/param:$ORIGIN/subprojects/slash",
+          "subprojects/csp/libcsp.so",
+          "subprojects/param/libparam.so",
+          "subprojects/slash/libslash.so",
+          "-Wl,-Map=apm_example.map",
+          "-lm",
+          "-lc",
+          "-pthread",
+          "/usr/lib/x86_64-linux-gnu/libsocketcan.so",
+          "/usr/lib/x86_64-linux-gnu/libzmq.so",
+          "/usr/lib/x86_64-linux-gnu/libbsd.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq",
+      "libbsd-overlay",
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq",
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq",
+      "libbsd-overlay"
+    ],
+    "depends": [],
+    "installed": true,
+    "install_filename": [
+      "/usr/local/lib/x86_64-linux-gnu/libcsh_audoppler.so"
+    ]
+  },
+  {
+    "name": "version.c",
+    "id": "version.c@cus",
+    "type": "custom",
+    "defined_in": "/home/au648962/Developer/si/csh_example/meson.build",
+    "filename": [
+      "/home/au648962/Developer/si/csh_example/build/version.c"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/home/au648962/.local/bin/meson",
+          "--internal",
+          "vcstagger",
+          "@INPUT0@",
+          "@OUTPUT0@",
+          "undefined",
+          "/home/au648962/Developer/si/csh_example",
+          "@VCS_TAG@",
+          "(.*)",
+          "/usr/bin/git",
+          "describe",
+          "--long",
+          "--always",
+          "--dirty=+"
+        ],
+        "parameters": [],
+        "sources": [
+          "/home/au648962/Developer/si/csh_example/src/version.c.in"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "param_example_server",
+    "id": "param_example_server@exe",
+    "type": "executable",
+    "defined_in": "/home/au648962/Developer/si/csh_example/meson.build",
+    "filename": [
+      "/home/au648962/Developer/si/csh_example/build/param_example_server"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/au648962/Developer/si/csh_example/build/param_example_server.p",
+          "-I/home/au648962/Developer/si/csh_example/build",
+          "-I/home/au648962/Developer/si/csh_example",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/include",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/csp/src",
+          "-I/home/au648962/Developer/si/csh_example/build/subprojects/param",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/param",
+          "-I/home/au648962/Developer/si/csh_example/subprojects/param/include",
+          "-I/usr/include/pgm-5.3",
+          "-I/usr/include/libxml2",
+          "-I/usr/include/x86_64-linux-gnu",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-O0",
+          "-g",
+          "-isystem",
+          "/usr/include/x86_64-linux-gnu/bsd",
+          "-DLIBBSD_OVERLAY",
+          "-isystem",
+          "/usr/include/mit-krb5",
+          "-pthread"
+        ],
+        "sources": [
+          "/home/au648962/Developer/si/csh_example/src/main_param.c",
+          "/home/au648962/Developer/si/csh_example/src/param_posix_srv.c"
+        ],
+        "generated_sources": [
+          "/home/au648962/Developer/si/csh_example/build/version.c"
+        ],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,-rpath,$ORIGIN/subprojects/csp:$ORIGIN/subprojects/param",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "subprojects/csp/libcsp.so",
+          "subprojects/param/libparam.so",
+          "-Wl,-Map=apm_example_server.map",
+          "-lm",
+          "-lrt",
+          "-lc",
+          "-pthread",
+          "/usr/lib/x86_64-linux-gnu/libsocketcan.so",
+          "/usr/lib/x86_64-linux-gnu/libzmq.so",
+          "/usr/lib/x86_64-linux-gnu/libbsd.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "yaml-0.1",
+      "c",
+      "threads",
+      "libsocketcan",
+      "libzmq",
+      "libbsd-overlay"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  }
+]

@@ -1,0 +1,109 @@
+The Meson build system
+Version: 1.10.0
+Source dir: /home/au648962/Developer/si/csh_example
+Build dir: /home/au648962/Developer/si/csh_example/build
+Build type: native build
+Project name: apm_example
+Project version: undefined
+C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the host machine: cc ld.bfd 2.42
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found pkg-config: YES (/usr/bin/pkg-config) 1.8.1
+Did not find CMake 'cmake'
+Found CMake: NO
+Run-time dependency apm_csh found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency apm_csh
+
+Executing subproject apm_csh 
+
+Project name: apm_csh
+Project version: 10
+C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the host machine: cc ld.bfd 2.42
+Run-time dependency csp found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency csp
+
+Executing subproject apm_csh:csp 
+
+Project name: csp
+Project version: 2.1
+C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the host machine: cc ld.bfd 2.42
+Run-time dependency yaml-0.1 found: NO (tried pkgconfig and cmake)
+Neither a subproject directory nor a yaml.wrap file was found.
+Cmake subproject yaml is buildable: NO (disabling)
+Library c found: YES
+Dependency threads found: YES unknown (cached)
+Dependency libsocketcan found: YES 0.0.12 (cached)
+Dependency libzmq found: YES 4.3.5 (cached)
+Has header "sys/socket.h" : YES (cached)
+Has header "arpa/inet.h" : YES (cached)
+Configuring autoconfig.h using configuration
+Build targets in project: 7
+Subproject csp finished.
+
+Dependency csp from subproject subprojects/csp found: YES 2.1
+Run-time dependency param found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency param
+
+Executing subproject apm_csh:param 
+
+Project name: param
+Project version: undefined
+C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the host machine: cc ld.bfd 2.42
+../subprojects/param/meson.build:3: WARNING: Consider using the built-in warning_level option instead of using "-Wall".
+Configuring libparam.h using configuration
+Dependency csp found: YES 2.1 (cached)
+Library c found: YES
+Dependency libbsd-overlay found: YES 0.12.1 (cached)
+Build targets in project: 8
+Subproject param finished.
+
+Dependency param from subproject subprojects/param found: YES undefined
+Run-time dependency slash found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency slash
+
+Executing subproject apm_csh:slash 
+
+Project name: slash
+Project version: undefined
+C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the host machine: cc ld.bfd 2.42
+Has header "sys/termios.h" : YES (cached)
+Has header "sys/select.h" : YES (cached)
+Configuring slash_config.h using configuration
+Run-time dependency libc found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency libc
+Neither a subproject directory nor a picolibc.wrap file was found.
+Subproject picolibc is buildable: NO (disabling)
+Dependency libc from subproject picolibc found: NO (subproject failed to configure)
+Build targets in project: 9
+Subproject slash finished.
+
+Dependency slash from subproject subprojects/slash found: YES undefined
+Configuring apm_csh.h using configuration
+Build targets in project: 10
+Subproject apm_csh finished.
+
+Dependency apm_csh from subproject subprojects/apm_csh found: YES 10
+Dependency csp found: YES 2.1 (cached)
+Dependency param found: YES undefined (cached)
+Dependency slash found: YES undefined (cached)
+Dependency csp found: YES 2.1 (cached)
+Dependency param found: YES undefined (cached)
+Build targets in project: 13
+
+apm_example undefined
+
+  Subprojects
+    apm_csh : YES
+    csp     : YES (from apm_csh)
+    param   : YES 1 warnings (from apm_csh)
+    picolibc: NO
+              Neither a subproject directory nor a picolibc.wrap file was found.
+    slash   : YES (from apm_csh)
+    yaml    : NO Neither a subproject directory nor a yaml.wrap file was found.
+
+Found ninja-1.13.0.git.kitware.jobserver-pipe-1 at /home/au648962/.local/bin/ninja

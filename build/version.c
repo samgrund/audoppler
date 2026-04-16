@@ -1,0 +1,1 @@
+const char *csh_example_version_string = "csh/2.10-2-gc95d677+";

@@ -1,0 +1,476 @@
+[
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_bridge.c.o -MF subprojects/csp/libcsp.so.p/src_csp_bridge.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_bridge.c.o -c ../subprojects/csp/src/csp_bridge.c",
+    "file": "../subprojects/csp/src/csp_bridge.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_bridge.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_buffer.c.o -MF subprojects/csp/libcsp.so.p/src_csp_buffer.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_buffer.c.o -c ../subprojects/csp/src/csp_buffer.c",
+    "file": "../subprojects/csp/src/csp_buffer.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_buffer.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_conn.c.o -MF subprojects/csp/libcsp.so.p/src_csp_conn.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_conn.c.o -c ../subprojects/csp/src/csp_conn.c",
+    "file": "../subprojects/csp/src/csp_conn.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_conn.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_crc32.c.o -MF subprojects/csp/libcsp.so.p/src_csp_crc32.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_crc32.c.o -c ../subprojects/csp/src/csp_crc32.c",
+    "file": "../subprojects/csp/src/csp_crc32.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_crc32.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_debug.c.o -MF subprojects/csp/libcsp.so.p/src_csp_debug.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_debug.c.o -c ../subprojects/csp/src/csp_debug.c",
+    "file": "../subprojects/csp/src/csp_debug.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_debug.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_dedup.c.o -MF subprojects/csp/libcsp.so.p/src_csp_dedup.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_dedup.c.o -c ../subprojects/csp/src/csp_dedup.c",
+    "file": "../subprojects/csp/src/csp_dedup.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_dedup.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_id.c.o -MF subprojects/csp/libcsp.so.p/src_csp_id.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_id.c.o -c ../subprojects/csp/src/csp_id.c",
+    "file": "../subprojects/csp/src/csp_id.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_id.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_iflist.c.o -MF subprojects/csp/libcsp.so.p/src_csp_iflist.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_iflist.c.o -c ../subprojects/csp/src/csp_iflist.c",
+    "file": "../subprojects/csp/src/csp_iflist.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_iflist.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_init.c.o -MF subprojects/csp/libcsp.so.p/src_csp_init.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_init.c.o -c ../subprojects/csp/src/csp_init.c",
+    "file": "../subprojects/csp/src/csp_init.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_init.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_io.c.o -MF subprojects/csp/libcsp.so.p/src_csp_io.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_io.c.o -c ../subprojects/csp/src/csp_io.c",
+    "file": "../subprojects/csp/src/csp_io.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_io.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_port.c.o -MF subprojects/csp/libcsp.so.p/src_csp_port.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_port.c.o -c ../subprojects/csp/src/csp_port.c",
+    "file": "../subprojects/csp/src/csp_port.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_port.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_qfifo.c.o -MF subprojects/csp/libcsp.so.p/src_csp_qfifo.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_qfifo.c.o -c ../subprojects/csp/src/csp_qfifo.c",
+    "file": "../subprojects/csp/src/csp_qfifo.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_qfifo.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_route.c.o -MF subprojects/csp/libcsp.so.p/src_csp_route.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_route.c.o -c ../subprojects/csp/src/csp_route.c",
+    "file": "../subprojects/csp/src/csp_route.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_route.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_service_handler.c.o -MF subprojects/csp/libcsp.so.p/src_csp_service_handler.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_service_handler.c.o -c ../subprojects/csp/src/csp_service_handler.c",
+    "file": "../subprojects/csp/src/csp_service_handler.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_service_handler.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_services.c.o -MF subprojects/csp/libcsp.so.p/src_csp_services.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_services.c.o -c ../subprojects/csp/src/csp_services.c",
+    "file": "../subprojects/csp/src/csp_services.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_services.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_sfp.c.o -MF subprojects/csp/libcsp.so.p/src_csp_sfp.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_sfp.c.o -c ../subprojects/csp/src/csp_sfp.c",
+    "file": "../subprojects/csp/src/csp_sfp.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_sfp.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_hex_dump.c.o -MF subprojects/csp/libcsp.so.p/src_csp_hex_dump.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_hex_dump.c.o -c ../subprojects/csp/src/csp_hex_dump.c",
+    "file": "../subprojects/csp/src/csp_hex_dump.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_hex_dump.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_promisc.c.o -MF subprojects/csp/libcsp.so.p/src_csp_promisc.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_promisc.c.o -c ../subprojects/csp/src/csp_promisc.c",
+    "file": "../subprojects/csp/src/csp_promisc.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_promisc.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_rdp.c.o -MF subprojects/csp/libcsp.so.p/src_csp_rdp.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_rdp.c.o -c ../subprojects/csp/src/csp_rdp.c",
+    "file": "../subprojects/csp/src/csp_rdp.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_rdp.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_csp_rdp_queue.c.o -MF subprojects/csp/libcsp.so.p/src_csp_rdp_queue.c.o.d -o subprojects/csp/libcsp.so.p/src_csp_rdp_queue.c.o -c ../subprojects/csp/src/csp_rdp_queue.c",
+    "file": "../subprojects/csp/src/csp_rdp_queue.c",
+    "output": "subprojects/csp/libcsp.so.p/src_csp_rdp_queue.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_arch_posix_csp_queue.c.o -MF subprojects/csp/libcsp.so.p/src_arch_posix_csp_queue.c.o.d -o subprojects/csp/libcsp.so.p/src_arch_posix_csp_queue.c.o -c ../subprojects/csp/src/arch/posix/csp_queue.c",
+    "file": "../subprojects/csp/src/arch/posix/csp_queue.c",
+    "output": "subprojects/csp/libcsp.so.p/src_arch_posix_csp_queue.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_arch_posix_csp_semaphore.c.o -MF subprojects/csp/libcsp.so.p/src_arch_posix_csp_semaphore.c.o.d -o subprojects/csp/libcsp.so.p/src_arch_posix_csp_semaphore.c.o -c ../subprojects/csp/src/arch/posix/csp_semaphore.c",
+    "file": "../subprojects/csp/src/arch/posix/csp_semaphore.c",
+    "output": "subprojects/csp/libcsp.so.p/src_arch_posix_csp_semaphore.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_arch_posix_csp_system.c.o -MF subprojects/csp/libcsp.so.p/src_arch_posix_csp_system.c.o.d -o subprojects/csp/libcsp.so.p/src_arch_posix_csp_system.c.o -c ../subprojects/csp/src/arch/posix/csp_system.c",
+    "file": "../subprojects/csp/src/arch/posix/csp_system.c",
+    "output": "subprojects/csp/libcsp.so.p/src_arch_posix_csp_system.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_arch_posix_csp_time.c.o -MF subprojects/csp/libcsp.so.p/src_arch_posix_csp_time.c.o.d -o subprojects/csp/libcsp.so.p/src_arch_posix_csp_time.c.o -c ../subprojects/csp/src/arch/posix/csp_time.c",
+    "file": "../subprojects/csp/src/arch/posix/csp_time.c",
+    "output": "subprojects/csp/libcsp.so.p/src_arch_posix_csp_time.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_arch_posix_csp_clock.c.o -MF subprojects/csp/libcsp.so.p/src_arch_posix_csp_clock.c.o.d -o subprojects/csp/libcsp.so.p/src_arch_posix_csp_clock.c.o -c ../subprojects/csp/src/arch/posix/csp_clock.c",
+    "file": "../subprojects/csp/src/arch/posix/csp_clock.c",
+    "output": "subprojects/csp/libcsp.so.p/src_arch_posix_csp_clock.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_arch_posix_pthread_queue.c.o -MF subprojects/csp/libcsp.so.p/src_arch_posix_pthread_queue.c.o.d -o subprojects/csp/libcsp.so.p/src_arch_posix_pthread_queue.c.o -c ../subprojects/csp/src/arch/posix/pthread_queue.c",
+    "file": "../subprojects/csp/src/arch/posix/pthread_queue.c",
+    "output": "subprojects/csp/libcsp.so.p/src_arch_posix_pthread_queue.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_crypto_csp_hmac.c.o -MF subprojects/csp/libcsp.so.p/src_crypto_csp_hmac.c.o.d -o subprojects/csp/libcsp.so.p/src_crypto_csp_hmac.c.o -c ../subprojects/csp/src/crypto/csp_hmac.c",
+    "file": "../subprojects/csp/src/crypto/csp_hmac.c",
+    "output": "subprojects/csp/libcsp.so.p/src_crypto_csp_hmac.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_crypto_csp_sha1.c.o -MF subprojects/csp/libcsp.so.p/src_crypto_csp_sha1.c.o.d -o subprojects/csp/libcsp.so.p/src_crypto_csp_sha1.c.o -c ../subprojects/csp/src/crypto/csp_sha1.c",
+    "file": "../subprojects/csp/src/crypto/csp_sha1.c",
+    "output": "subprojects/csp/libcsp.so.p/src_crypto_csp_sha1.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_drivers_can_can_socketcan.c.o -MF subprojects/csp/libcsp.so.p/src_drivers_can_can_socketcan.c.o.d -o subprojects/csp/libcsp.so.p/src_drivers_can_can_socketcan.c.o -c ../subprojects/csp/src/drivers/can/can_socketcan.c",
+    "file": "../subprojects/csp/src/drivers/can/can_socketcan.c",
+    "output": "subprojects/csp/libcsp.so.p/src_drivers_can_can_socketcan.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_drivers_eth_eth_linux.c.o -MF subprojects/csp/libcsp.so.p/src_drivers_eth_eth_linux.c.o.d -o subprojects/csp/libcsp.so.p/src_drivers_eth_eth_linux.c.o -c ../subprojects/csp/src/drivers/eth/eth_linux.c",
+    "file": "../subprojects/csp/src/drivers/eth/eth_linux.c",
+    "output": "subprojects/csp/libcsp.so.p/src_drivers_eth_eth_linux.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_drivers_usart_usart_linux.c.o -MF subprojects/csp/libcsp.so.p/src_drivers_usart_usart_linux.c.o.d -o subprojects/csp/libcsp.so.p/src_drivers_usart_usart_linux.c.o -c ../subprojects/csp/src/drivers/usart/usart_linux.c",
+    "file": "../subprojects/csp/src/drivers/usart/usart_linux.c",
+    "output": "subprojects/csp/libcsp.so.p/src_drivers_usart_usart_linux.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_drivers_usart_usart_kiss.c.o -MF subprojects/csp/libcsp.so.p/src_drivers_usart_usart_kiss.c.o.d -o subprojects/csp/libcsp.so.p/src_drivers_usart_usart_kiss.c.o -c ../subprojects/csp/src/drivers/usart/usart_kiss.c",
+    "file": "../subprojects/csp/src/drivers/usart/usart_kiss.c",
+    "output": "subprojects/csp/libcsp.so.p/src_drivers_usart_usart_kiss.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_interfaces_csp_if_lo.c.o -MF subprojects/csp/libcsp.so.p/src_interfaces_csp_if_lo.c.o.d -o subprojects/csp/libcsp.so.p/src_interfaces_csp_if_lo.c.o -c ../subprojects/csp/src/interfaces/csp_if_lo.c",
+    "file": "../subprojects/csp/src/interfaces/csp_if_lo.c",
+    "output": "subprojects/csp/libcsp.so.p/src_interfaces_csp_if_lo.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_interfaces_csp_if_can.c.o -MF subprojects/csp/libcsp.so.p/src_interfaces_csp_if_can.c.o.d -o subprojects/csp/libcsp.so.p/src_interfaces_csp_if_can.c.o -c ../subprojects/csp/src/interfaces/csp_if_can.c",
+    "file": "../subprojects/csp/src/interfaces/csp_if_can.c",
+    "output": "subprojects/csp/libcsp.so.p/src_interfaces_csp_if_can.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_interfaces_csp_if_can_pbuf.c.o -MF subprojects/csp/libcsp.so.p/src_interfaces_csp_if_can_pbuf.c.o.d -o subprojects/csp/libcsp.so.p/src_interfaces_csp_if_can_pbuf.c.o -c ../subprojects/csp/src/interfaces/csp_if_can_pbuf.c",
+    "file": "../subprojects/csp/src/interfaces/csp_if_can_pbuf.c",
+    "output": "subprojects/csp/libcsp.so.p/src_interfaces_csp_if_can_pbuf.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_interfaces_csp_if_eth.c.o -MF subprojects/csp/libcsp.so.p/src_interfaces_csp_if_eth.c.o.d -o subprojects/csp/libcsp.so.p/src_interfaces_csp_if_eth.c.o -c ../subprojects/csp/src/interfaces/csp_if_eth.c",
+    "file": "../subprojects/csp/src/interfaces/csp_if_eth.c",
+    "output": "subprojects/csp/libcsp.so.p/src_interfaces_csp_if_eth.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_interfaces_csp_if_eth_pbuf.c.o -MF subprojects/csp/libcsp.so.p/src_interfaces_csp_if_eth_pbuf.c.o.d -o subprojects/csp/libcsp.so.p/src_interfaces_csp_if_eth_pbuf.c.o -c ../subprojects/csp/src/interfaces/csp_if_eth_pbuf.c",
+    "file": "../subprojects/csp/src/interfaces/csp_if_eth_pbuf.c",
+    "output": "subprojects/csp/libcsp.so.p/src_interfaces_csp_if_eth_pbuf.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_interfaces_csp_if_kiss.c.o -MF subprojects/csp/libcsp.so.p/src_interfaces_csp_if_kiss.c.o.d -o subprojects/csp/libcsp.so.p/src_interfaces_csp_if_kiss.c.o -c ../subprojects/csp/src/interfaces/csp_if_kiss.c",
+    "file": "../subprojects/csp/src/interfaces/csp_if_kiss.c",
+    "output": "subprojects/csp/libcsp.so.p/src_interfaces_csp_if_kiss.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_interfaces_csp_if_tun.c.o -MF subprojects/csp/libcsp.so.p/src_interfaces_csp_if_tun.c.o.d -o subprojects/csp/libcsp.so.p/src_interfaces_csp_if_tun.c.o -c ../subprojects/csp/src/interfaces/csp_if_tun.c",
+    "file": "../subprojects/csp/src/interfaces/csp_if_tun.c",
+    "output": "subprojects/csp/libcsp.so.p/src_interfaces_csp_if_tun.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_interfaces_csp_if_i2c.c.o -MF subprojects/csp/libcsp.so.p/src_interfaces_csp_if_i2c.c.o.d -o subprojects/csp/libcsp.so.p/src_interfaces_csp_if_i2c.c.o -c ../subprojects/csp/src/interfaces/csp_if_i2c.c",
+    "file": "../subprojects/csp/src/interfaces/csp_if_i2c.c",
+    "output": "subprojects/csp/libcsp.so.p/src_interfaces_csp_if_i2c.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_interfaces_csp_if_zmqhub.c.o -MF subprojects/csp/libcsp.so.p/src_interfaces_csp_if_zmqhub.c.o.d -o subprojects/csp/libcsp.so.p/src_interfaces_csp_if_zmqhub.c.o -c ../subprojects/csp/src/interfaces/csp_if_zmqhub.c",
+    "file": "../subprojects/csp/src/interfaces/csp_if_zmqhub.c",
+    "output": "subprojects/csp/libcsp.so.p/src_interfaces_csp_if_zmqhub.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/libcsp.so.p -Isubprojects/csp -I../subprojects/csp -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -fPIC -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/libcsp.so.p/src_interfaces_csp_if_udp.c.o -MF subprojects/csp/libcsp.so.p/src_interfaces_csp_if_udp.c.o.d -o subprojects/csp/libcsp.so.p/src_interfaces_csp_if_udp.c.o -c ../subprojects/csp/src/interfaces/csp_if_udp.c",
+    "file": "../subprojects/csp/src/interfaces/csp_if_udp.c",
+    "output": "subprojects/csp/libcsp.so.p/src_interfaces_csp_if_udp.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/examples/csp_server_client.p -Isubprojects/csp/examples -I../subprojects/csp/examples -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/examples/csp_server_client.p/csp_server_client.c.o -MF subprojects/csp/examples/csp_server_client.p/csp_server_client.c.o.d -o subprojects/csp/examples/csp_server_client.p/csp_server_client.c.o -c ../subprojects/csp/examples/csp_server_client.c",
+    "file": "../subprojects/csp/examples/csp_server_client.c",
+    "output": "subprojects/csp/examples/csp_server_client.p/csp_server_client.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/examples/csp_server_client.p -Isubprojects/csp/examples -I../subprojects/csp/examples -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/examples/csp_server_client.p/csp_server_client_posix.c.o -MF subprojects/csp/examples/csp_server_client.p/csp_server_client_posix.c.o.d -o subprojects/csp/examples/csp_server_client.p/csp_server_client_posix.c.o -c ../subprojects/csp/examples/csp_server_client_posix.c",
+    "file": "../subprojects/csp/examples/csp_server_client_posix.c",
+    "output": "subprojects/csp/examples/csp_server_client.p/csp_server_client_posix.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/examples/csp_server.p -Isubprojects/csp/examples -I../subprojects/csp/examples -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/examples/csp_server.p/csp_server.c.o -MF subprojects/csp/examples/csp_server.p/csp_server.c.o.d -o subprojects/csp/examples/csp_server.p/csp_server.c.o -c ../subprojects/csp/examples/csp_server.c",
+    "file": "../subprojects/csp/examples/csp_server.c",
+    "output": "subprojects/csp/examples/csp_server.p/csp_server.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/examples/csp_server.p -Isubprojects/csp/examples -I../subprojects/csp/examples -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/examples/csp_server.p/csp_server_posix.c.o -MF subprojects/csp/examples/csp_server.p/csp_server_posix.c.o.d -o subprojects/csp/examples/csp_server.p/csp_server_posix.c.o -c ../subprojects/csp/examples/csp_server_posix.c",
+    "file": "../subprojects/csp/examples/csp_server_posix.c",
+    "output": "subprojects/csp/examples/csp_server.p/csp_server_posix.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/examples/csp_client.p -Isubprojects/csp/examples -I../subprojects/csp/examples -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/examples/csp_client.p/csp_client.c.o -MF subprojects/csp/examples/csp_client.p/csp_client.c.o.d -o subprojects/csp/examples/csp_client.p/csp_client.c.o -c ../subprojects/csp/examples/csp_client.c",
+    "file": "../subprojects/csp/examples/csp_client.c",
+    "output": "subprojects/csp/examples/csp_client.p/csp_client.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/examples/csp_client.p -Isubprojects/csp/examples -I../subprojects/csp/examples -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/examples/csp_client.p/csp_client_posix.c.o -MF subprojects/csp/examples/csp_client.p/csp_client_posix.c.o.d -o subprojects/csp/examples/csp_client.p/csp_client_posix.c.o -c ../subprojects/csp/examples/csp_client_posix.c",
+    "file": "../subprojects/csp/examples/csp_client_posix.c",
+    "output": "subprojects/csp/examples/csp_client.p/csp_client_posix.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/examples/csp_bridge_can2udp.p -Isubprojects/csp/examples -I../subprojects/csp/examples -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/examples/csp_bridge_can2udp.p/csp_bridge_can2udp.c.o -MF subprojects/csp/examples/csp_bridge_can2udp.p/csp_bridge_can2udp.c.o.d -o subprojects/csp/examples/csp_bridge_can2udp.p/csp_bridge_can2udp.c.o -c ../subprojects/csp/examples/csp_bridge_can2udp.c",
+    "file": "../subprojects/csp/examples/csp_bridge_can2udp.c",
+    "output": "subprojects/csp/examples/csp_bridge_can2udp.p/csp_bridge_can2udp.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/examples/csp_arch.p -Isubprojects/csp/examples -I../subprojects/csp/examples -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/examples/csp_arch.p/csp_arch.c.o -MF subprojects/csp/examples/csp_arch.p/csp_arch.c.o.d -o subprojects/csp/examples/csp_arch.p/csp_arch.c.o -c ../subprojects/csp/examples/csp_arch.c",
+    "file": "../subprojects/csp/examples/csp_arch.c",
+    "output": "subprojects/csp/examples/csp_arch.p/csp_arch.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/csp/examples/zmqproxy.p -Isubprojects/csp/examples -I../subprojects/csp/examples -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=gnu11 -Os -g -isystem /usr/include/mit-krb5 -pthread -Wshadow -Wcast-align -Wwrite-strings -Wpointer-arith -Wno-unused-parameter -MD -MQ subprojects/csp/examples/zmqproxy.p/zmqproxy.c.o -MF subprojects/csp/examples/zmqproxy.p/zmqproxy.c.o.d -o subprojects/csp/examples/zmqproxy.p/zmqproxy.c.o -c ../subprojects/csp/examples/zmqproxy.c",
+    "file": "../subprojects/csp/examples/zmqproxy.c",
+    "output": "subprojects/csp/examples/zmqproxy.p/zmqproxy.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_param_list_param_list.c.o -MF subprojects/param/libparam.so.p/src_param_list_param_list.c.o.d -o subprojects/param/libparam.so.p/src_param_list_param_list.c.o -c ../subprojects/param/src/param/list/param_list.c",
+    "file": "../subprojects/param/src/param/list/param_list.c",
+    "output": "subprojects/param/libparam.so.p/src_param_list_param_list.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_param_param_client.c.o -MF subprojects/param/libparam.so.p/src_param_param_client.c.o.d -o subprojects/param/libparam.so.p/src_param_param_client.c.o -c ../subprojects/param/src/param/param_client.c",
+    "file": "../subprojects/param/src/param/param_client.c",
+    "output": "subprojects/param/libparam.so.p/src_param_param_client.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_param_param_serializer.c.o -MF subprojects/param/libparam.so.p/src_param_param_serializer.c.o.d -o subprojects/param/libparam.so.p/src_param_param_serializer.c.o -c ../subprojects/param/src/param/param_serializer.c",
+    "file": "../subprojects/param/src/param/param_serializer.c",
+    "output": "subprojects/param/libparam.so.p/src_param_param_serializer.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_param_param_server.c.o -MF subprojects/param/libparam.so.p/src_param_param_server.c.o.d -o subprojects/param/libparam.so.p/src_param_param_server.c.o -c ../subprojects/param/src/param/param_server.c",
+    "file": "../subprojects/param/src/param/param_server.c",
+    "output": "subprojects/param/libparam.so.p/src_param_param_server.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_param_param_string.c.o -MF subprojects/param/libparam.so.p/src_param_param_string.c.o.d -o subprojects/param/libparam.so.p/src_param_param_string.c.o -c ../subprojects/param/src/param/param_string.c",
+    "file": "../subprojects/param/src/param/param_string.c",
+    "output": "subprojects/param/libparam.so.p/src_param_param_string.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_param_param_queue.c.o -MF subprojects/param/libparam.so.p/src_param_param_queue.c.o.d -o subprojects/param/libparam.so.p/src_param_param_queue.c.o -c ../subprojects/param/src/param/param_queue.c",
+    "file": "../subprojects/param/src/param/param_queue.c",
+    "output": "subprojects/param/libparam.so.p/src_param_param_queue.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_param_param_wildcard.c.o -MF subprojects/param/libparam.so.p/src_param_param_wildcard.c.o.d -o subprojects/param/libparam.so.p/src_param_param_wildcard.c.o -c ../subprojects/param/src/param/param_wildcard.c",
+    "file": "../subprojects/param/src/param/param_wildcard.c",
+    "output": "subprojects/param/libparam.so.p/src_param_param_wildcard.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_param_param.c.o -MF subprojects/param/libparam.so.p/src_param_param.c.o.d -o subprojects/param/libparam.so.p/src_param_param.c.o -c ../subprojects/param/src/param/param.c",
+    "file": "../subprojects/param/src/param/param.c",
+    "output": "subprojects/param/libparam.so.p/src_param_param.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_mpack_mpack.c.o -MF subprojects/param/libparam.so.p/src_mpack_mpack.c.o.d -o subprojects/param/libparam.so.p/src_mpack_mpack.c.o -c ../subprojects/param/src/mpack/mpack.c",
+    "file": "../subprojects/param/src/mpack/mpack.c",
+    "output": "subprojects/param/libparam.so.p/src_mpack_mpack.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_vmem_vmem_client.c.o -MF subprojects/param/libparam.so.p/src_vmem_vmem_client.c.o.d -o subprojects/param/libparam.so.p/src_vmem_vmem_client.c.o -c ../subprojects/param/src/vmem/vmem_client.c",
+    "file": "../subprojects/param/src/vmem/vmem_client.c",
+    "output": "subprojects/param/libparam.so.p/src_vmem_vmem_client.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_vmem_vmem_crc32.c.o -MF subprojects/param/libparam.so.p/src_vmem_vmem_crc32.c.o.d -o subprojects/param/libparam.so.p/src_vmem_vmem_crc32.c.o -c ../subprojects/param/src/vmem/vmem_crc32.c",
+    "file": "../subprojects/param/src/vmem/vmem_crc32.c",
+    "output": "subprojects/param/libparam.so.p/src_vmem_vmem_crc32.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_vmem_vmem_server.c.o -MF subprojects/param/libparam.so.p/src_vmem_vmem_server.c.o.d -o subprojects/param/libparam.so.p/src_vmem_vmem_server.c.o -c ../subprojects/param/src/vmem/vmem_server.c",
+    "file": "../subprojects/param/src/vmem/vmem_server.c",
+    "output": "subprojects/param/libparam.so.p/src_vmem_vmem_server.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_vmem_vmem.c.o -MF subprojects/param/libparam.so.p/src_vmem_vmem.c.o.d -o subprojects/param/libparam.so.p/src_vmem_vmem.c.o -c ../subprojects/param/src/vmem/vmem.c",
+    "file": "../subprojects/param/src/vmem/vmem.c",
+    "output": "subprojects/param/libparam.so.p/src_vmem_vmem.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_vmem_vmem_block.c.o -MF subprojects/param/libparam.so.p/src_vmem_vmem_block.c.o.d -o subprojects/param/libparam.so.p/src_vmem_vmem_block.c.o -c ../subprojects/param/src/vmem/vmem_block.c",
+    "file": "../subprojects/param/src/vmem/vmem_block.c",
+    "output": "subprojects/param/libparam.so.p/src_vmem_vmem_block.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/param/libparam.so.p -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -Wall -fPIC -isystem /usr/include/mit-krb5 -pthread -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -MD -MQ subprojects/param/libparam.so.p/src_objstore_objstore.c.o -MF subprojects/param/libparam.so.p/src_objstore_objstore.c.o.d -o subprojects/param/libparam.so.p/src_objstore_objstore.c.o -c ../subprojects/param/src/objstore/objstore.c",
+    "file": "../subprojects/param/src/objstore/objstore.c",
+    "output": "subprojects/param/libparam.so.p/src_objstore_objstore.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/slash/libslash.so.p -Isubprojects/slash -I../subprojects/slash -I../subprojects/slash/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -MD -MQ subprojects/slash/libslash.so.p/src_slash.c.o -MF subprojects/slash/libslash.so.p/src_slash.c.o.d -o subprojects/slash/libslash.so.p/src_slash.c.o -c ../subprojects/slash/src/slash.c",
+    "file": "../subprojects/slash/src/slash.c",
+    "output": "subprojects/slash/libslash.so.p/src_slash.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/slash/libslash.so.p -Isubprojects/slash -I../subprojects/slash -I../subprojects/slash/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -MD -MQ subprojects/slash/libslash.so.p/src_completer.c.o -MF subprojects/slash/libslash.so.p/src_completer.c.o.d -o subprojects/slash/libslash.so.p/src_completer.c.o -c ../subprojects/slash/src/completer.c",
+    "file": "../subprojects/slash/src/completer.c",
+    "output": "subprojects/slash/libslash.so.p/src_completer.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/slash/libslash.so.p -Isubprojects/slash -I../subprojects/slash -I../subprojects/slash/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -MD -MQ subprojects/slash/libslash.so.p/src_optparse.c.o -MF subprojects/slash/libslash.so.p/src_optparse.c.o.d -o subprojects/slash/libslash.so.p/src_optparse.c.o -c ../subprojects/slash/src/optparse.c",
+    "file": "../subprojects/slash/src/optparse.c",
+    "output": "subprojects/slash/libslash.so.p/src_optparse.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/slash/libslash.so.p -Isubprojects/slash -I../subprojects/slash -I../subprojects/slash/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -MD -MQ subprojects/slash/libslash.so.p/src_slash_list.c.o -MF subprojects/slash/libslash.so.p/src_slash_list.c.o.d -o subprojects/slash/libslash.so.p/src_slash_list.c.o -c ../subprojects/slash/src/slash_list.c",
+    "file": "../subprojects/slash/src/slash_list.c",
+    "output": "subprojects/slash/libslash.so.p/src_slash_list.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Isubprojects/apm_csh/libapm_csh_lib.a.p -Isubprojects/apm_csh -I../subprojects/apm_csh -I../subprojects/apm_csh/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/slash -I../subprojects/slash -I../subprojects/slash/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -MD -MQ subprojects/apm_csh/libapm_csh_lib.a.p/src_apm.c.o -MF subprojects/apm_csh/libapm_csh_lib.a.p/src_apm.c.o.d -o subprojects/apm_csh/libapm_csh_lib.a.p/src_apm.c.o -c ../subprojects/apm_csh/src/apm.c",
+    "file": "../subprojects/apm_csh/src/apm.c",
+    "output": "subprojects/apm_csh/libapm_csh_lib.a.p/src_apm.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Ilibcsh_audoppler.so.p -I. -I.. -Isubprojects/apm_csh -I../subprojects/apm_csh -I../subprojects/apm_csh/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/slash -I../subprojects/slash -I../subprojects/slash/include -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -isystem /usr/include/mit-krb5 -pthread -MD -MQ libcsh_audoppler.so.p/src_main_param.c.o -MF libcsh_audoppler.so.p/src_main_param.c.o.d -o libcsh_audoppler.so.p/src_main_param.c.o -c ../src/main_param.c",
+    "file": "../src/main_param.c",
+    "output": "libcsh_audoppler.so.p/src_main_param.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Ilibcsh_audoppler.so.p -I. -I.. -Isubprojects/apm_csh -I../subprojects/apm_csh -I../subprojects/apm_csh/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/slash -I../subprojects/slash -I../subprojects/slash/include -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -isystem /usr/include/mit-krb5 -pthread -MD -MQ libcsh_audoppler.so.p/src_main_slash.c.o -MF libcsh_audoppler.so.p/src_main_slash.c.o.d -o libcsh_audoppler.so.p/src_main_slash.c.o -c ../src/main_slash.c",
+    "file": "../src/main_slash.c",
+    "output": "libcsh_audoppler.so.p/src_main_slash.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Ilibcsh_audoppler.so.p -I. -I.. -Isubprojects/apm_csh -I../subprojects/apm_csh -I../subprojects/apm_csh/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/slash -I../subprojects/slash -I../subprojects/slash/include -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -isystem /usr/include/mit-krb5 -pthread -MD -MQ libcsh_audoppler.so.p/src_main_slash_doppler.c.o -MF libcsh_audoppler.so.p/src_main_slash_doppler.c.o.d -o libcsh_audoppler.so.p/src_main_slash_doppler.c.o -c ../src/main_slash_doppler.c",
+    "file": "../src/main_slash_doppler.c",
+    "output": "libcsh_audoppler.so.p/src_main_slash_doppler.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Ilibcsh_audoppler.so.p -I. -I.. -Isubprojects/apm_csh -I../subprojects/apm_csh -I../subprojects/apm_csh/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/slash -I../subprojects/slash -I../subprojects/slash/include -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -isystem /usr/include/mit-krb5 -pthread -MD -MQ libcsh_audoppler.so.p/src_sgp4_SGP4.c.o -MF libcsh_audoppler.so.p/src_sgp4_SGP4.c.o.d -o libcsh_audoppler.so.p/src_sgp4_SGP4.c.o -c ../src/sgp4/SGP4.c",
+    "file": "../src/sgp4/SGP4.c",
+    "output": "libcsh_audoppler.so.p/src_sgp4_SGP4.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Ilibcsh_audoppler.so.p -I. -I.. -Isubprojects/apm_csh -I../subprojects/apm_csh -I../subprojects/apm_csh/include -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -Isubprojects/slash -I../subprojects/slash -I../subprojects/slash/include -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -isystem /usr/include/mit-krb5 -pthread -MD -MQ libcsh_audoppler.so.p/src_sgp4_TLE.c.o -MF libcsh_audoppler.so.p/src_sgp4_TLE.c.o.d -o libcsh_audoppler.so.p/src_sgp4_TLE.c.o -c ../src/sgp4/TLE.c",
+    "file": "../src/sgp4/TLE.c",
+    "output": "libcsh_audoppler.so.p/src_sgp4_TLE.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Iparam_example_server.p -I. -I.. -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -isystem /usr/include/mit-krb5 -pthread -MD -MQ param_example_server.p/meson-generated_.._version.c.o -MF param_example_server.p/meson-generated_.._version.c.o.d -o param_example_server.p/meson-generated_.._version.c.o -c version.c",
+    "file": "version.c",
+    "output": "param_example_server.p/meson-generated_.._version.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Iparam_example_server.p -I. -I.. -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -isystem /usr/include/mit-krb5 -pthread -MD -MQ param_example_server.p/src_main_param.c.o -MF param_example_server.p/src_main_param.c.o.d -o param_example_server.p/src_main_param.c.o -c ../src/main_param.c",
+    "file": "../src/main_param.c",
+    "output": "param_example_server.p/src_main_param.c.o"
+  },
+  {
+    "directory": "/home/au648962/Developer/si/csh_example/build",
+    "command": "cc -Iparam_example_server.p -I. -I.. -Isubprojects/csp/include -I../subprojects/csp/include -Isubprojects/csp/src -I../subprojects/csp/src -Isubprojects/param -I../subprojects/param -I../subprojects/param/include -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -isystem /usr/include/x86_64-linux-gnu/bsd -DLIBBSD_OVERLAY -isystem /usr/include/mit-krb5 -pthread -MD -MQ param_example_server.p/src_param_posix_srv.c.o -MF param_example_server.p/src_param_posix_srv.c.o.d -o param_example_server.p/src_param_posix_srv.c.o -c ../src/param_posix_srv.c",
+    "file": "../src/param_posix_srv.c",
+    "output": "param_example_server.p/src_param_posix_srv.c.o"
+  }
+]

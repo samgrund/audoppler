@@ -1,0 +1,31 @@
+{
+  "version": "undefined",
+  "descriptive_name": "apm_example",
+  "license": [
+    "unknown"
+  ],
+  "license_files": [],
+  "subproject_dir": "subprojects",
+  "subprojects": [
+    {
+      "name": "csp",
+      "version": "2.1",
+      "descriptive_name": "csp"
+    },
+    {
+      "name": "param",
+      "version": "undefined",
+      "descriptive_name": "param"
+    },
+    {
+      "name": "slash",
+      "version": "undefined",
+      "descriptive_name": "slash"
+    },
+    {
+      "name": "apm_csh",
+      "version": "10",
+      "descriptive_name": "apm_csh"
+    }
+  ]
+}

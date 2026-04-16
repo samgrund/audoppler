@@ -1,0 +1,18 @@
+[
+  "/home/au648962/Developer/si/csh_example/meson.build",
+  "/home/au648962/Developer/si/csh_example/subprojects/apm_csh/meson.build",
+  "/home/au648962/Developer/si/csh_example/subprojects/csp/meson.build",
+  "/home/au648962/Developer/si/csh_example/subprojects/csp/meson_options.txt",
+  "/home/au648962/Developer/si/csh_example/subprojects/csp/src/meson.build",
+  "/home/au648962/Developer/si/csh_example/subprojects/csp/src/arch/meson.build",
+  "/home/au648962/Developer/si/csh_example/subprojects/csp/src/arch/posix/meson.build",
+  "/home/au648962/Developer/si/csh_example/subprojects/csp/src/crypto/meson.build",
+  "/home/au648962/Developer/si/csh_example/subprojects/csp/src/drivers/meson.build",
+  "/home/au648962/Developer/si/csh_example/subprojects/csp/src/interfaces/meson.build",
+  "/home/au648962/Developer/si/csh_example/subprojects/csp/include/csp/meson.build",
+  "/home/au648962/Developer/si/csh_example/subprojects/csp/examples/meson.build",
+  "/home/au648962/Developer/si/csh_example/subprojects/param/meson.build",
+  "/home/au648962/Developer/si/csh_example/subprojects/param/meson_options.txt",
+  "/home/au648962/Developer/si/csh_example/subprojects/slash/meson.build",
+  "/home/au648962/Developer/si/csh_example/subprojects/slash/meson_options.txt"
+]

@@ -1,0 +1,309 @@
+Build started at 2026-04-16T09:57:31.997046
+Main binary: /home/au648962/.local/share/pipx/venvs/meson/bin/python
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 1.10.0
+Source dir: /home/au648962/Developer/si/csh_example
+Build dir: /home/au648962/Developer/si/csh_example/build
+Build type: native build
+Project name: apm_example
+Project version: undefined
+C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the host machine: cc ld.bfd 2.42
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils for Ubuntu) 2.42
+Copyright (C) 2024 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+C compiler for the build machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the build machine: cc ld.bfd 2.42
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils for Ubuntu) 2.42
+Copyright (C) 2024 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (/usr/bin/pkg-config) 1.8.1
+Determining dependency 'apm_csh' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion apm_csh` -> 1
+stderr:
+Package apm_csh was not found in the pkg-config search path.
+Perhaps you should add the directory containing `apm_csh.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'apm_csh', required by 'virtual:world', not found
+-----------
+CMake binary for host machine is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Did not find CMake 'cmake'
+Found CMake: NO
+CMake binary for machine host machine not found. Giving up.
+Run-time dependency apm_csh found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency apm_csh
+
+Executing subproject apm_csh 
+
+Project name: apm_csh
+Project version: 10
+C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the host machine: cc ld.bfd 2.42
+C compiler for the build machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the build machine: cc ld.bfd 2.42
+Determining dependency 'csp' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion csp` -> 1
+stderr:
+Package csp was not found in the pkg-config search path.
+Perhaps you should add the directory containing `csp.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'csp', required by 'virtual:world', not found
+-----------
+CMake binary for host machine is cached as not found
+CMake binary for machine host machine not found. Giving up.
+Run-time dependency csp found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency csp
+
+Executing subproject apm_csh:csp 
+
+Project name: csp
+Project version: 2.1
+C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the host machine: cc ld.bfd 2.42
+C compiler for the build machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the build machine: cc ld.bfd 2.42
+Determining dependency 'yaml-0.1' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion yaml-0.1` -> 1
+stderr:
+Package yaml-0.1 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `yaml-0.1.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'yaml-0.1', required by 'virtual:world', not found
+-----------
+CMake binary for host machine is cached as not found
+CMake binary for machine host machine not found. Giving up.
+Run-time dependency yaml-0.1 found: NO (tried pkgconfig and cmake)
+Neither a subproject directory nor a yaml.wrap file was found.
+Cmake subproject yaml is buildable: NO (disabling)
+Running compile:
+Working directory:  /home/au648962/Developer/si/csh_example/build/meson-private/tmpffqay4mu
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc /home/au648962/Developer/si/csh_example/build/meson-private/tmpffqay4mu/testfile.c -o /home/au648962/Developer/si/csh_example/build/meson-private/tmpffqay4mu/output.exe -D_FILE_OFFSET_BITS=64 -O0 -lc -Wl,--allow-shlib-undefined` -> 0
+Library c found: YES
+Dependency threads found: YES unknown (cached)
+Dependency libsocketcan found: YES 0.0.12 (cached)
+Dependency libzmq found: YES 4.3.5 (cached)
+Using cached compile:
+Cached command line:  cc /home/au648962/Developer/si/csh_example/build/meson-private/tmp70wlu70u/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/socket.h")
+          #error "Header 'sys/socket.h' could not be found"
+         #endif
+        #else
+         #include <sys/socket.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/socket.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/au648962/Developer/si/csh_example/build/meson-private/tmpc_0sony2/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("arpa/inet.h")
+          #error "Header 'arpa/inet.h' could not be found"
+         #endif
+        #else
+         #include <arpa/inet.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "arpa/inet.h" : YES (cached)
+Configuring autoconfig.h using configuration
+Build targets in project: 7
+Subproject csp finished.
+
+Dependency csp from subproject subprojects/csp found: YES 2.1
+Determining dependency 'param' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion param` -> 1
+stderr:
+Package param was not found in the pkg-config search path.
+Perhaps you should add the directory containing `param.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'param', required by 'virtual:world', not found
+-----------
+CMake binary for host machine is cached as not found
+CMake binary for machine host machine not found. Giving up.
+Run-time dependency param found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency param
+
+Executing subproject apm_csh:param 
+
+Project name: param
+Project version: undefined
+C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the host machine: cc ld.bfd 2.42
+C compiler for the build machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the build machine: cc ld.bfd 2.42
+../subprojects/param/meson.build:3: WARNING: Consider using the built-in warning_level option instead of using "-Wall".
+Configuring libparam.h using configuration
+Dependency csp found: YES 2.1 (cached)
+Library c found: YES
+Dependency libbsd-overlay found: YES 0.12.1 (cached)
+Build targets in project: 8
+Subproject param finished.
+
+Dependency param from subproject subprojects/param found: YES undefined
+Determining dependency 'slash' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion slash` -> 1
+stderr:
+Package slash was not found in the pkg-config search path.
+Perhaps you should add the directory containing `slash.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'slash', required by 'virtual:world', not found
+-----------
+CMake binary for host machine is cached as not found
+CMake binary for machine host machine not found. Giving up.
+Run-time dependency slash found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency slash
+
+Executing subproject apm_csh:slash 
+
+Project name: slash
+Project version: undefined
+C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the host machine: cc ld.bfd 2.42
+C compiler for the build machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0")
+C linker for the build machine: cc ld.bfd 2.42
+Using cached compile:
+Cached command line:  cc /home/au648962/Developer/si/csh_example/build/meson-private/tmpdt6nh69e/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/termios.h")
+          #error "Header 'sys/termios.h' could not be found"
+         #endif
+        #else
+         #include <sys/termios.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/termios.h" : YES (cached)
+Using cached compile:
+Cached command line:  cc /home/au648962/Developer/si/csh_example/build/meson-private/tmp90wahxsh/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/select.h")
+          #error "Header 'sys/select.h' could not be found"
+         #endif
+        #else
+         #include <sys/select.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "sys/select.h" : YES (cached)
+Configuring slash_config.h using configuration
+Determining dependency 'libc' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion libc` -> 1
+stderr:
+Package libc was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libc.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libc', required by 'virtual:world', not found
+-----------
+CMake binary for host machine is cached as not found
+CMake binary for machine host machine not found. Giving up.
+Run-time dependency libc found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency libc
+Neither a subproject directory nor a picolibc.wrap file was found.
+Subproject picolibc is buildable: NO (disabling)
+Dependency libc from subproject picolibc found: NO (subproject failed to configure)
+Build targets in project: 9
+Subproject slash finished.
+
+Dependency slash from subproject subprojects/slash found: YES undefined
+Configuring apm_csh.h using configuration
+Build targets in project: 10
+Subproject apm_csh finished.
+
+Dependency apm_csh from subproject subprojects/apm_csh found: YES 10
+Dependency csp found: YES 2.1 (cached)
+Dependency param found: YES undefined (cached)
+Dependency slash found: YES undefined (cached)
+Dependency csp found: YES 2.1 (cached)
+Dependency param found: YES undefined (cached)
+Build targets in project: 13
+
+apm_example undefined
+
+  Subprojects
+    apm_csh : YES
+    csp     : YES (from apm_csh)
+    param   : YES 1 warnings (from apm_csh)
+    picolibc: NO
+              Neither a subproject directory nor a picolibc.wrap file was found.
+    slash   : YES (from apm_csh)
+    yaml    : NO Neither a subproject directory nor a yaml.wrap file was found.
+
+Found ninja-1.13.0.git.kitware.jobserver-pipe-1 at /home/au648962/.local/bin/ninja
+Running compile:
+Working directory:  /home/au648962/Developer/si/csh_example/build/meson-private/tmpkdux6yyw
+Code:
+
+-----------
+Command line: `cc /home/au648962/Developer/si/csh_example/build/meson-private/tmpkdux6yyw/testfile.c -o /home/au648962/Developer/si/csh_example/build/meson-private/tmpkdux6yyw/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-linux-gnu/13/
+programs: =/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/13/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/13/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+-----------

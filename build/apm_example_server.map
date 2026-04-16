@@ -1,0 +1,691 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libcsp.so                     param_example_server.p/src_param_posix_srv.c.o (csp_dbg_conn_noroute)
+libparam.so                   param_example_server.p/src_main_param.c.o (param_get_uint8_array)
+libc.so.6                     param_example_server.p/src_param_posix_srv.c.o (pthread_attr_setschedpolicy@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 param_example_server.p/meson-generated_.._version.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 param_example_server.p/meson-generated_.._version.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 param_example_server.p/src_main_param.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 param_example_server.p/src_main_param.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 param_example_server.p/src_param_posix_srv.c.o
+ .note.gnu.property
+                0x0000000000000000       0x20 param_example_server.p/src_param_posix_srv.c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+LOAD param_example_server.p/meson-generated_.._version.c.o
+LOAD param_example_server.p/src_main_param.c.o
+LOAD param_example_server.p/src_param_posix_srv.c.o
+START GROUP
+LOAD subprojects/csp/libcsp.so
+LOAD subprojects/param/libparam.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/librt.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib64/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/x86_64-linux-gnu/libsocketcan.so
+LOAD /usr/lib/x86_64-linux-gnu/libzmq.so
+LOAD /usr/lib/x86_64-linux-gnu/libbsd.so
+START GROUP
+LOAD /usr/lib/x86_64-linux-gnu/libbsd.so.0.12.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libmd.so
+END GROUP
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libpthread.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib64/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000318                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000318       0x1c
+ *(.interp)
+ .interp        0x0000000000000318       0x1c /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.property
+                0x0000000000000338       0x30
+ .note.gnu.property
+                0x0000000000000338       0x30 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000368       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000368       0x24 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.ABI-tag   0x000000000000038c       0x20
+ .note.ABI-tag  0x000000000000038c       0x20 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000003b0       0x44
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000003b0       0x44 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynsym         0x00000000000003f8      0x450
+ *(.dynsym)
+ .dynsym        0x00000000000003f8      0x450 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynstr         0x0000000000000848      0x340
+ *(.dynstr)
+ .dynstr        0x0000000000000848      0x340 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version    0x0000000000000b88       0x5c
+ *(.gnu.version)
+ .gnu.version   0x0000000000000b88       0x5c /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_d  0x0000000000000be8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000be8        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_r  0x0000000000000be8       0x50
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000be8       0x50 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.dyn       0x0000000000000c38      0xca8
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000000c38        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x0000000000000c38        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local
+                0x0000000000000c38      0x150 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000000d88       0xa8 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000000e30       0x48 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000000e78        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.fini_array
+                0x0000000000000e78       0x18 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.init_array
+                0x0000000000000e90       0x18 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .relaparam     0x0000000000000ea8      0x9a8 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .relavmem      0x0000000000001850       0x90 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.plt       0x00000000000018e0      0x210
+ *(.rela.plt)
+ .rela.plt      0x00000000000018e0      0x210 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.iplt)
+
+.relr.dyn
+ *(.relr.dyn)
+                0x0000000000002000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000002000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000002000       0x16 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+                0x0000000000002000                _init
+ .init          0x0000000000002016        0x5 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000002020      0x170
+ *(.plt)
+ .plt           0x0000000000002020      0x170 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.iplt)
+
+.plt.got        0x0000000000002190       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000002190       0x10 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000002190                __cxa_finalize@@GLIBC_2.2.5
+
+.plt.sec        0x00000000000021a0      0x160
+ *(.plt.sec)
+ .plt.sec       0x00000000000021a0      0x160 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000021a0                printf@@GLIBC_2.2.5
+                0x00000000000021b0                csp_zmqhub_init_filter2
+                0x00000000000021c0                csp_route_work
+                0x00000000000021d0                sleep@@GLIBC_2.2.5
+                0x00000000000021e0                memcpy@@GLIBC_2.14
+                0x00000000000021f0                csp_bind_callback
+                0x0000000000002200                csp_can_socketcan_open_and_add_interface
+                0x0000000000002210                __stack_chk_fail@@GLIBC_2.4
+                0x0000000000002220                param_get_uint8_array
+                0x0000000000002230                csp_eth_init
+                0x0000000000002240                pthread_setname_np@@GLIBC_2.34
+                0x0000000000002250                exit@@GLIBC_2.2.5
+                0x0000000000002260                pthread_attr_init@@GLIBC_2.2.5
+                0x0000000000002270                pthread_attr_setschedpolicy@@GLIBC_2.2.5
+                0x0000000000002280                csp_init
+                0x0000000000002290                puts@@GLIBC_2.2.5
+                0x00000000000022a0                atoi@@GLIBC_2.2.5
+                0x00000000000022b0                getopt_long@@GLIBC_2.2.5
+                0x00000000000022c0                pthread_attr_destroy@@GLIBC_2.2.5
+                0x00000000000022d0                pthread_create@@GLIBC_2.34
+                0x00000000000022e0                fwrite@@GLIBC_2.2.5
+                0x00000000000022f0                vmem_server_loop
+
+.text           0x0000000000002300      0x76c
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000002300       0x26 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000002300                _start
+ .text          0x0000000000002326        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+ *fill*         0x0000000000002326        0xa 
+ .text          0x0000000000002330       0xb9 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+ .text          0x00000000000023e9        0x0 param_example_server.p/meson-generated_.._version.c.o
+ .text          0x00000000000023e9       0x4c param_example_server.p/src_main_param.c.o
+                0x00000000000023e9                param_ramu8_cb
+ .text          0x0000000000002435      0x637 param_example_server.p/src_param_posix_srv.c.o
+                0x0000000000002435                router_task
+                0x000000000000244c                vmem_server_task
+                0x00000000000025a1                main
+ .text          0x0000000000002a6c        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+ .text          0x0000000000002a6c        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.fini           0x0000000000002a6c        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000002a6c        0x8 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+                0x0000000000002a6c                _fini
+ .fini          0x0000000000002a74        0x5 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000003000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x0000000000003000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x0000000000003000      0x588
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x0000000000003000        0x4 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000003000                _IO_stdin_used
+ .rodata        0x0000000000003004       0x15 param_example_server.p/meson-generated_.._version.c.o
+ *fill*         0x0000000000003019        0x7 
+ .rodata        0x0000000000003020       0x7c param_example_server.p/src_main_param.c.o
+ *fill*         0x000000000000309c        0x4 
+ .rodata        0x00000000000030a0      0x4e8 param_example_server.p/src_param_posix_srv.c.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000003588       0x64
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000003588       0x64 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000003588                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00000000000035f0      0x164
+ *(.eh_frame)
+ .eh_frame      0x00000000000035f0       0x30 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x2c (size before relaxing)
+ *fill*         0x0000000000003620        0x0 
+ .eh_frame      0x0000000000003620       0x28 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000003648       0x18 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000003660       0x18 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000003678       0x20 param_example_server.p/src_main_param.c.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000000003698       0xb8 param_example_server.p/src_param_posix_srv.c.o
+                                         0xd0 (size before relaxing)
+ .eh_frame      0x0000000000003750        0x4 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+ *(.eh_frame.*)
+
+.sframe         0x0000000000003754        0x0
+ *(.sframe)
+ .sframe        0x0000000000003754        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .sframe        0x0000000000003754        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.sframe.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000004cd0                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.sframe
+ *(.sframe)
+ *(.sframe.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x0000000000004cd0        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000004cd0        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000004cd0        0x8
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000004cd0        0x8 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000004cd8        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000004cd8        0x8 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000004ce0        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000004ce0        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynamic        0x0000000000004ce0      0x220
+ *(.dynamic)
+ .dynamic       0x0000000000004ce0      0x220 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000004ce0                _DYNAMIC
+
+.got            0x0000000000004f00      0x100
+ *(.got.plt)
+ .got.plt       0x0000000000004f00       0xc8 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000004f00                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ *(.got)
+ .got           0x0000000000004fc8       0x38 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.igot)
+                0x0000000000005000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x0000000000005000      0x1a0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000005000        0x4 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000005000                data_start
+                0x0000000000005000                __data_start
+ .data          0x0000000000005004        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000005004        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+ *fill*         0x0000000000005004        0x4 
+ .data.rel.local
+                0x0000000000005008        0x8 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+                0x0000000000005008                __dso_handle
+ .data          0x0000000000005010        0x0 param_example_server.p/meson-generated_.._version.c.o
+ .data.rel.local
+                0x0000000000005010        0x8 param_example_server.p/meson-generated_.._version.c.o
+                0x0000000000005010                csh_example_version_string
+ .data          0x0000000000005018        0x2 param_example_server.p/src_main_param.c.o
+                0x0000000000005018                _ram_u16
+ *fill*         0x000000000000501a        0x6 
+ .data.rel.local
+                0x0000000000005020        0x8 param_example_server.p/src_main_param.c.o
+ .data          0x0000000000005028       0x10 param_example_server.p/src_param_posix_srv.c.o
+ *fill*         0x0000000000005038        0x8 
+ .data.rel.local
+                0x0000000000005040      0x160 param_example_server.p/src_param_posix_srv.c.o
+ .data          0x00000000000051a0        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+ .data          0x00000000000051a0        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+
+.tm_clone_table
+                0x00000000000051a0        0x0
+ .tm_clone_table
+                0x00000000000051a0        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+ .tm_clone_table
+                0x00000000000051a0        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+
+param           0x00000000000051a0      0x660
+ param          0x00000000000051a0      0x180 param_example_server.p/src_main_param.c.o
+                0x00000000000051a0                ram_u8
+                0x0000000000005200                ram_u16
+                0x0000000000005260                vmem_u8
+                0x00000000000052c0                vmem_u16
+ param          0x0000000000005320      0x4e0 param_example_server.p/src_param_posix_srv.c.o
+                0x0000000000005320                csp_buf_out
+                0x0000000000005380                csp_conn_out
+                0x00000000000053e0                csp_conn_ovf
+                0x0000000000005440                csp_conn_noroute
+                0x00000000000054a0                csp_inval_reply
+                0x0000000000005500                csp_errno
+                0x0000000000005560                csp_can_errno
+                0x00000000000055c0                csp_print_rdp
+                0x0000000000005620                csp_print_packet
+                0x0000000000005680                vmem_custom_u8
+                0x00000000000056e0                vmem_custom_u16
+                0x0000000000005740                vmem_custom_u32
+                0x00000000000057a0                vmem_custom_u64
+
+vmem            0x0000000000005800       0xb8
+ vmem           0x0000000000005800       0x58 param_example_server.p/src_main_param.c.o
+                0x0000000000005800                vmem_apmtest
+ *fill*         0x0000000000005858        0x8 
+ vmem           0x0000000000005860       0x58 param_example_server.p/src_param_posix_srv.c.o
+
+.data1
+ *(.data1)
+                0x00000000000058b8                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x00000000000058b8                . = ALIGN (ALIGNOF (NEXT_SECTION))
+                0x00000000000058c0                __bss_start = .
+
+.bss            0x00000000000058c0      0x640
+ *(.dynbss)
+ .dynbss        0x00000000000058c0       0x68 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000058c0                optarg@@GLIBC_2.2.5
+                0x00000000000058e0                csp_conf
+                0x0000000000005920                stderr@@GLIBC_2.2.5
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000005928        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .bss           0x0000000000005928        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000005928        0x1 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+ .bss           0x0000000000005929        0x0 param_example_server.p/meson-generated_.._version.c.o
+ *fill*         0x0000000000005929       0x17 
+ .bss           0x0000000000005940      0x45a param_example_server.p/src_main_param.c.o
+                0x0000000000005940                _ram_u8
+                0x0000000000005950                _timestamp_ram_u8
+                0x0000000000005958                _node_ram_u8
+                0x0000000000005960                _timestamp_ram_u16
+                0x0000000000005968                _node_ram_u16
+                0x0000000000005980                vmem_apmtest_heap
+                0x0000000000005d80                _timestamp_vmem_u8
+                0x0000000000005d88                _node_vmem_u8
+                0x0000000000005d90                _timestamp_vmem_u16
+                0x0000000000005d98                _node_vmem_u16
+ *fill*         0x0000000000005d9a        0x6 
+ .bss           0x0000000000005da0      0x160 param_example_server.p/src_param_posix_srv.c.o
+                0x0000000000005da0                _timestamp_csp_buf_out
+                0x0000000000005da8                _node_csp_buf_out
+                0x0000000000005db0                _timestamp_csp_conn_out
+                0x0000000000005db8                _node_csp_conn_out
+                0x0000000000005dc0                _timestamp_csp_conn_ovf
+                0x0000000000005dc8                _node_csp_conn_ovf
+                0x0000000000005dd0                _timestamp_csp_conn_noroute
+                0x0000000000005dd8                _node_csp_conn_noroute
+                0x0000000000005de0                _timestamp_csp_inval_reply
+                0x0000000000005de8                _node_csp_inval_reply
+                0x0000000000005df0                _timestamp_csp_errno
+                0x0000000000005df8                _node_csp_errno
+                0x0000000000005e00                _timestamp_csp_can_errno
+                0x0000000000005e08                _node_csp_can_errno
+                0x0000000000005e10                _timestamp_csp_print_rdp
+                0x0000000000005e18                _node_csp_print_rdp
+                0x0000000000005e20                _timestamp_csp_print_packet
+                0x0000000000005e28                _node_csp_print_packet
+                0x0000000000005e30                _timestamp_vmem_custom_u8
+                0x0000000000005e38                _node_vmem_custom_u8
+                0x0000000000005e40                _timestamp_vmem_custom_u16
+                0x0000000000005e48                _node_vmem_custom_u16
+                0x0000000000005e50                _timestamp_vmem_custom_u32
+                0x0000000000005e58                _node_vmem_custom_u32
+                0x0000000000005e60                _timestamp_vmem_custom_u64
+                0x0000000000005e68                _node_vmem_custom_u64
+ .bss           0x0000000000005f00        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+ .bss           0x0000000000005f00        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+ *(COMMON)
+                0x0000000000005f00                . = ALIGN ((. != 0x0)?0x8:0x1)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000005f00                . = ALIGN (0x8)
+                0x0000000000005f00                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000007f00        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000007f00                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000007f00                . = ALIGN (0x8)
+                0x0000000000005f00                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000007f00                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2d
+ *(.comment)
+ .comment       0x0000000000000000       0x2d /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+                                         0x2e (size before relaxing)
+ .comment       0x000000000000002d       0x2e param_example_server.p/meson-generated_.._version.c.o
+ .comment       0x000000000000002d       0x2e param_example_server.p/src_main_param.c.o
+ .comment       0x000000000000002d       0x2e param_example_server.p/src_param_posix_srv.c.o
+ .comment       0x000000000000002d       0x2e /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 param_example_server.p/meson-generated_.._version.c.o
+ .debug_aranges
+                0x0000000000000020       0x30 param_example_server.p/src_main_param.c.o
+ .debug_aranges
+                0x0000000000000050       0x30 param_example_server.p/src_param_posix_srv.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x1af5
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x47 param_example_server.p/meson-generated_.._version.c.o
+ .debug_info    0x0000000000000047      0x654 param_example_server.p/src_main_param.c.o
+ .debug_info    0x000000000000069b     0x145a param_example_server.p/src_param_posix_srv.c.o
+
+.debug_abbrev   0x0000000000000000      0x54b
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x3e param_example_server.p/meson-generated_.._version.c.o
+ .debug_abbrev  0x000000000000003e      0x1e4 param_example_server.p/src_main_param.c.o
+ .debug_abbrev  0x0000000000000222      0x329 param_example_server.p/src_param_posix_srv.c.o
+
+.debug_line     0x0000000000000000      0x34d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x36 param_example_server.p/meson-generated_.._version.c.o
+ .debug_line    0x0000000000000036       0x97 param_example_server.p/src_main_param.c.o
+ .debug_line    0x00000000000000cd      0x280 param_example_server.p/src_param_posix_srv.c.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0xde1
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0xde1 param_example_server.p/meson-generated_.._version.c.o
+                                         0xb2 (size before relaxing)
+ .debug_str     0x0000000000000de1      0x5a8 param_example_server.p/src_main_param.c.o
+ .debug_str     0x0000000000000de1      0xe71 param_example_server.p/src_param_posix_srv.c.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x0000000000000000      0x2b1
+ *(.debug_line_str)
+ .debug_line_str
+                0x0000000000000000      0x2b1 param_example_server.p/meson-generated_.._version.c.o
+                                         0x7a (size before relaxing)
+ .debug_line_str
+                0x00000000000002b1      0x16a param_example_server.p/src_main_param.c.o
+ .debug_line_str
+                0x00000000000002b1      0x2e9 param_example_server.p/src_param_posix_srv.c.o
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x0000000000000000       0x17
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x0000000000000000       0x17 param_example_server.p/src_param_posix_srv.c.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(param_example_server elf64-x86-64)

@@ -1,0 +1,22 @@
+{
+  "targets": {
+    "/home/au648962/Developer/si/csh_example/build/libcsh_audoppler.so": {
+      "destination": "{libdir_shared}/libcsh_audoppler.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": [
+        "$ORIGIN/subprojects/csp",
+        "$ORIGIN/subprojects/param",
+        "$ORIGIN/subprojects/slash"
+      ]
+    }
+  },
+  "configure": {
+    "/home/au648962/Developer/si/csh_example/build/subprojects/csp/include/csp/autoconfig.h": {
+      "destination": "include/csp/autoconfig.h",
+      "tag": "devel",
+      "subproject": "csp"
+    }
+  }
+}
